@@ -1,0 +1,54 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "Genre": [
+    {
+      "genre": "Aventure",
+      "description": "Description Aventure",
+      "image": "C:\\fakepath\\aventure.png",
+      "id": 1
+    },
+    {
+      "genre": "Sport",
+      "description": "Description Sport",
+      "image": "C:\\fakepath\\sport.png",
+      "id": 2
+    },
+    {
+      "id": 3,
+      "genre": "Arcade",
+      "description": "Arcade",
+      "image": "C:\\fakepath\\157429-image2_450x450.png"
+    },
+    {
+      "genre": "Rugby",
+      "description": "the best type ever",
+      "image": "C:\\fakepath\\chicago.jpg",
+      "id": 4
+    }
+  ],
+  "Jeux": [
+    {
+      "nom": "Fifa 2021",
+      "description": "Jeu de foot",
+      "prix": "500.0",
+      "genre_id": "Sport",
+      "id": 1
+    }
+  ]
+}
