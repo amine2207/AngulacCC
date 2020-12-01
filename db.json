@@ -40,6 +40,12 @@
       "message": "j'ai trop aimé",
       "jeux_id": "Fifa 2021",
       "id": 1
+    },
+    {
+      "evaluation": 10,
+      "jeux_id": "Fifa 2021",
+      "message": "j'ai trop aimé",
+      "id": 2
     }
   ]
 }
