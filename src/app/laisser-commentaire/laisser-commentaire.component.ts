@@ -35,7 +35,7 @@ export class LaisserCommentaireComponent implements OnInit {
       resultat => {
         alert("une opération à été effectué")
         console.log("Commentaire ajouté");
-        this.router.navigateByUrl('/listcomms');
+        this.router.navigateByUrl('/list_comms');
       }, (err) => {
         console.log(err);
       }

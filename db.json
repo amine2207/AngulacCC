@@ -1,21 +1,4 @@
 {
-  "posts": [
-    {
-      "id": 1,
-      "title": "json-server",
-      "author": "typicode"
-    }
-  ],
-  "comments": [
-    {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
-    }
-  ],
-  "profile": {
-    "name": "typicode"
-  },
   "Genre": [
     {
       "genre": "Aventure",
@@ -48,6 +31,14 @@
       "description": "Jeu de foot",
       "prix": "500.0",
       "genre_id": "Sport",
+      "id": 1
+    }
+  ],
+  "commentaires": [
+    {
+      "evaluation": 9,
+      "message": "j'ai trop aimé",
+      "jeux_id": "Fifa 2021",
       "id": 1
     }
   ]
