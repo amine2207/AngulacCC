@@ -12,6 +12,7 @@ import { JeuxComponent } from './jeux/jeux.component';
 import { UpdateJeuComponent } from './update-jeu/update-jeu.component';
 import { LaisserCommentaireComponent } from './laisser-commentaire/laisser-commentaire.component';
 import { ListCommentairesComponent } from './list-commentaires/list-commentaires.component';
+import { AddJeuComponent } from './add-jeu/add-jeu.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { ListCommentairesComponent } from './list-commentaires/list-commentaires
     JeuxComponent,
     UpdateJeuComponent,
     LaisserCommentaireComponent,
-    ListCommentairesComponent
+    ListCommentairesComponent,
+    AddJeuComponent
   ],
   imports: [
     BrowserModule,
