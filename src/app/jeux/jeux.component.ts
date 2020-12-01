@@ -15,6 +15,7 @@ export class JeuxComponent implements OnInit {
   @Input() color;
   @Output() add = new EventEmitter<Jeux>();
   msg;
+  term: string;
   jeux_form: FormBuilder = new FormBuilder();
   jeux_group: FormGroup;
   listgenres: Genre[] = [];

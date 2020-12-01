@@ -10,6 +10,7 @@ import { CommentsService } from '../shared/comments.service';
 })
 export class ListCommentairesComponent implements OnInit {
 
+  term: string;
   listcomms: Commentaire[] = [];
   commentaire: Commentaire = new Commentaire();
   constructor(private cs: CommentsService, private router: Router) { }

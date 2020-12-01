@@ -9,7 +9,7 @@
             display: inline-flex;
             width: 220px;
             margin-left: 20px;
-            background-color: rgb(180, 187, 89);
+            background-color: rgb(117, 212, 224);
             align-content: space-between;
             height: 130px;
         }
@@ -17,7 +17,10 @@
 </head>
 <body>
     <app-menu></app-menu>
-    <div class="c list-group my-3" *ngFor="let item of listcomms">
+    <div class="form-group">
+        <input type="text" class="form-control" placeholder="Search Here" [(ngModel)]="term">
+     </div>
+    <div class="c list-group my-3" *ngFor="let item of listcomms | filter:term">
           <div class="d-flex w-100 justify-content-between" >
             <h5 class="mb-1">Commentaire N° : {{item.id}}</h5>
       

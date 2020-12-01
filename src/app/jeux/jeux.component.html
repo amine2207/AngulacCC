@@ -9,6 +9,7 @@
 
 <body>
     <app-menu></app-menu>
+    
     <br>
     <br>
     <br>
@@ -16,9 +17,10 @@
     <hr>
 
     <button (click)="getAll()" class="btn btn-info">Voir tous les jeux</button>
+
     <div class="container_g">
 
-        <div class="card" *ngFor="let item of listjeu">
+        <div class="card" *ngFor="let item of listjeu | filter:term">
 
 
             <div class="container" [style.background]="msg">

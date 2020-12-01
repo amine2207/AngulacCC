@@ -14,6 +14,7 @@ import { LaisserCommentaireComponent } from './laisser-commentaire/laisser-comme
 import { ListCommentairesComponent } from './list-commentaires/list-commentaires.component';
 import { AddJeuComponent } from './add-jeu/add-jeu.component';
 import { Ng5SliderModule } from 'ng5-slider';
+import { Ng2SearchPipeModule } from 'ng2-search-filter';
 
 
 @NgModule({
@@ -36,6 +37,8 @@ import { Ng5SliderModule } from 'ng5-slider';
     ReactiveFormsModule,
     HttpClientModule,
     Ng5SliderModule,
+    Ng2SearchPipeModule
+
 
 
   ],
