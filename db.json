@@ -34,6 +34,12 @@
       "genre": "Arcade",
       "description": "Arcade",
       "image": "C:\\fakepath\\157429-image2_450x450.png"
+    },
+    {
+      "id": 4,
+      "genre": "Classe",
+      "description": "the best t",
+      "image": "C:\\fakepath\\chicago.jpg"
     }
   ],
   "Jeux": [
