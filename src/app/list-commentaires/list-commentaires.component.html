@@ -7,21 +7,22 @@
     <style>
         .c{
             display: inline-flex;
-            width: 200px;
+            width: 220px;
             margin-left: 20px;
-            background-color: rgb(147, 179, 85);
+            background-color: rgb(180, 187, 89);
             align-content: space-between;
-            height: 80px;
+            height: 130px;
         }
     </style>
 </head>
 <body>
     <app-menu></app-menu>
     <div class="c list-group my-3" *ngFor="let item of listcomms">
-          <div class="d-flex w-100 justify-content-between">
+          <div class="d-flex w-100 justify-content-between" >
             <h5 class="mb-1">Commentaire N° : {{item.id}}</h5>
-            <small> {{item.evaluation}}</small>
+      
           </div>
+          <p> {{item.evaluation}}</p>
           <p class="mb-1"></p>
           <p>{{item.jeux_id}}</p>
       
