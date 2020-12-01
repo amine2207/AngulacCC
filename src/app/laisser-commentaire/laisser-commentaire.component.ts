@@ -1,4 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
+import { Commentaire } from '../model/commentaire';
+import { CommentsService } from '../shared/comments.service';
 
 @Component({
   selector: 'app-laisser-commentaire',
@@ -7,7 +10,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class LaisserCommentaireComponent implements OnInit {
 
-  constructor() { }
+  commentaire: Commentaire = new Commentaire();
+  constructor(private router : Router, private cs: CommentsService) { }
 
   ngOnInit(): void {
   }
