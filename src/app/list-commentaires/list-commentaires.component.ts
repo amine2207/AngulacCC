@@ -1,4 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
+import { Commentaire } from '../model/commentaire';
+import { CommentsService } from '../shared/comments.service';
 
 @Component({
   selector: 'app-list-commentaires',
@@ -7,9 +10,18 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ListCommentairesComponent implements OnInit {
 
-  constructor() { }
+  listcomms: Commentaire[] = [];
+  commentaire: Commentaire = new Commentaire();
+  constructor(private cs: CommentsService, private router: Router) { }
 
   ngOnInit(): void {
+    this.cs.getcomm().subscribe(
+      (data : Commentaire[])=>{this.listcomms= data
+      }, (err) => {
+        console.log(err);
+    }
+    );
   }
+
 
 }

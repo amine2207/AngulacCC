@@ -4,8 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        .c{
+            display: inline-flex;
+            width: 200px;
+            margin-left: 20px;
+            background-color: rgb(147, 179, 85);
+            align-content: space-between;
+            height: 80px;
+        }
+    </style>
 </head>
 <body>
     <app-menu></app-menu>
+    <div class="c list-group my-3" *ngFor="let item of listcomms">
+          <div class="d-flex w-100 justify-content-between">
+            <h5 class="mb-1">Commentaire N° : {{item.id}}</h5>
+            <small> {{item.evaluation}}</small>
+          </div>
+          <p class="mb-1"></p>
+          <p>{{item.jeux_id}}</p>
+      
+     
+      </div>
 </body>
 </html>
