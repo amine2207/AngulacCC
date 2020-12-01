@@ -18,7 +18,7 @@
 <body>
     <app-menu></app-menu>
     <div class="form-group">
-        <input type="text" class="form-control" placeholder="Search Here" [(ngModel)]="term">
+        <input type="text" class="col-form-label col-form-label-lg" for="inputLarge" placeholder="Chercher commentaire.." [(ngModel)]="term">
      </div>
     <div class="c list-group my-3" *ngFor="let item of listcomms | filter:term">
           <div class="d-flex w-100 justify-content-between" >
