@@ -13,6 +13,8 @@ import { UpdateJeuComponent } from './update-jeu/update-jeu.component';
 import { LaisserCommentaireComponent } from './laisser-commentaire/laisser-commentaire.component';
 import { ListCommentairesComponent } from './list-commentaires/list-commentaires.component';
 import { AddJeuComponent } from './add-jeu/add-jeu.component';
+import { Ng5SliderModule } from 'ng5-slider';
+
 
 @NgModule({
   declarations: [
@@ -33,6 +35,8 @@ import { AddJeuComponent } from './add-jeu/add-jeu.component';
     FormsModule,
     ReactiveFormsModule,
     HttpClientModule,
+    Ng5SliderModule,
+
 
   ],
   providers: [],
