@@ -25,5 +25,15 @@ export class LaisserCommentaireComponent implements OnInit {
     }
     );
   }
-
+  save() {
+    this.cs.laissercommentaires(this.commentaire).subscribe(
+      resultat => {
+        alert("une opération à été effectué")
+        console.log("Commentaire ajouté");
+        this.router.navigateByUrl('/listcomms');
+      }, (err) => {
+        console.log(err);
+      }
+    )
+  }
 }
