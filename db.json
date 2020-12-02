@@ -17,12 +17,6 @@
       "genre": "Arcade",
       "description": "Arcade",
       "image": "C:\\fakepath\\157429-image2_450x450.png"
-    },
-    {
-      "id": 4,
-      "genre": "Classe",
-      "description": "the best t",
-      "image": "C:\\fakepath\\chicago.jpg"
     }
   ],
   "Jeux": [
@@ -36,10 +30,10 @@
   ],
   "commentaires": [
     {
-      "evaluation": 10,
-      "jeux_id": "Fifa 2021",
+      "evaluation": 5,
+      "id": 2,
       "message": "j'ai trop aimé",
-      "id": 2
+      "jeux_id": "Fifa 2021"
     }
   ]
 }
