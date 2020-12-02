@@ -12,7 +12,7 @@ export class UpdateGenreComponent implements OnInit {
 
   img_url = "../assets/images/";
 
-  listgenres: Genre[] = [];
+
   g: Genre = new Genre();
   
   constructor(private gs: GenreService, private router: Router) {

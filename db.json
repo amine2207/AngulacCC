@@ -32,22 +32,9 @@
       "prix": "500.0",
       "genre_id": "Sport",
       "id": 1
-    },
-    {
-      "nom": "Fifaaaaaa",
-      "description": "the best type ever",
-      "prix": "2500",
-      "genre_id": "Sport",
-      "id": 2
     }
   ],
   "commentaires": [
-    {
-      "evaluation": 9,
-      "message": "j'ai trop aimé",
-      "jeux_id": "Fifa 2021",
-      "id": 1
-    },
     {
       "evaluation": 10,
       "jeux_id": "Fifa 2021",

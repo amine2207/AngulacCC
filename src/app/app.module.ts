@@ -15,6 +15,7 @@ import { ListCommentairesComponent } from './list-commentaires/list-commentaires
 import { AddJeuComponent } from './add-jeu/add-jeu.component';
 import { Ng5SliderModule } from 'ng5-slider';
 import { Ng2SearchPipeModule } from 'ng2-search-filter';
+import { UpdateCommentaireComponent } from './update-commentaire/update-commentaire.component';
 
 
 @NgModule({
@@ -28,7 +29,8 @@ import { Ng2SearchPipeModule } from 'ng2-search-filter';
     UpdateJeuComponent,
     LaisserCommentaireComponent,
     ListCommentairesComponent,
-    AddJeuComponent
+    AddJeuComponent,
+    UpdateCommentaireComponent
   ],
   imports: [
     BrowserModule,

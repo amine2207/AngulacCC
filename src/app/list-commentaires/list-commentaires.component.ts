@@ -23,6 +23,15 @@ export class ListCommentairesComponent implements OnInit {
     }
     );
   }
+  delete(id: number)
+  {
+    this.cs.deleteCOMM(id).subscribe(resultat => {
+      alert("Votre Commentaire a été supprimé");
+      this.router.navigateByUrl('/list_comms');
+    }, (err) => {
+      console.log(err);
+  });
+  }
 
 
 }
